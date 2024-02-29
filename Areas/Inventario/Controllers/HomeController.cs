@@ -1,9 +1,10 @@
-﻿using Biblioteca.Models;
+﻿using Biblioteca.Modelos.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Biblioteca.Controllers
+namespace Biblioteca.Areas.Inventario.Controllers
 {
+    [Area("Inventario")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

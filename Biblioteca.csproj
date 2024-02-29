@@ -13,6 +13,18 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.15" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Biblioteca.AccesoDatos\Biblioteca.AccesoDatos.csproj" />
+    <ProjectReference Include="..\Biblioteca.Modelos\Biblioteca.Modelos.csproj" />
+    <ProjectReference Include="..\Biblioteca.Utilidades\Biblioteca.Utilidades.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
